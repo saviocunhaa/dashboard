@@ -4,7 +4,7 @@
    v2.0 | 20110126
    License: none (public domain)
 
-   RESET DADOS GERAL
+   RESET DADOS PRINCIPAIS
 */
 
 *{
@@ -145,18 +145,149 @@ li{
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-color: aqua;
+    background-color: #FFF1F1;
     flex-wrap: wrap;
     padding: 20px;
-    justify-content: space-around;
+    justify-content:center;
 }
+
+/* VALORES INICIAL CABEÇALHO */
 .valor{
     display: flex;
+    flex-direction: column;
     height: 113px;
     width: 196px;
-    background: white;
+    background: #90DD8F;
     margin: 10px;
     border-radius: 10px;
-    padding: 10px;
+    justify-content: space-between;
     
 }
+
+.valor h1{ 
+    font-size: 16px ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.valor-interno{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.valor-interno img{
+    height: 30px;
+}
+.valor-interno h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.valor-legenda{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #04CE00;
+    font-size: 10px;
+    height: 19px;
+    width: 196px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* VALORES 2 INICIAL CABEÇALHO */
+.valor2{
+    display: flex;
+    flex-direction: column;
+    height: 113px;
+    width: 196px;
+    background: #FFBF60;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+
+.valor2 h1{ 
+    font-size: 16px ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.valor2-legenda{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #FFA41C;
+    font-size: 10px;
+    height: 19px;
+    width: 196px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* VALORES 3 INICIAL CABEÇALHO */
+.valor3{
+    display: flex;
+    flex-direction: column;
+    height: 113px;
+    width: 196px;
+    background: #00ceab;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+
+.valor3 h1{ 
+    font-size: 16px ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.valor3-legenda{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #00957c;
+    font-size: 10px;
+    height: 19px;
+    width: 196px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* VALORES 4 INICIAL CABEÇALHO */
+.valor4{
+    display: flex;
+    flex-direction: column;
+    height: 113px;
+    width: 196px;
+    background: #FF2E2E;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+
+.valor4 h1{ 
+    font-size: 16px ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.valor4-legenda{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: #C20000;
+    font-size: 10px;
+    height: 19px;
+    width: 196px;
+    border-radius: 0 0 10px 10px;
+}
+
