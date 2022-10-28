@@ -149,6 +149,7 @@ li{
     flex-wrap: wrap;
     padding: 20px;
     justify-content:center;
+    gap: 5px;
 }
 
 /* VALORES INICIAL CABEÇALHO */
@@ -291,3 +292,21 @@ li{
     border-radius: 0 0 10px 10px;
 }
 
+
+
+.tabela{
+    background: #C20000;
+    width: 800px;
+    height: 200px;
+}
+.tabela2{
+    background: #C20000;
+    width: 400px;
+    height: 200px;
+}
+.tabela3{
+    background: #C20000;
+    width: 400px;
+    height: 300px;
+   
+}
